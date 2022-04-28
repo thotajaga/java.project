@@ -15,6 +15,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>nexusRepo</id>
+      <name>Releases</name>
+      <url>http://3.111.144.178:8081/repository/java.project-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexusRepo</id>
+      <name>Snapshot</name>
+      <url>http://3.111.144.178:8081/repository/java.project-releases/</url>
+    </snapshotRepository>
+  </distributionManagement>
   <build>
     <finalName>java.project</finalName>
   </build>
